@@ -22,6 +22,5 @@ module "my_lambda" {
 module "my_s3_bucket" {
   source = "./module/s3"
   s3_bucket_name = var.s3_bucket_name
-  
 }
 
